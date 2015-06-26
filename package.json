@@ -1,0 +1,15 @@
+{
+  "name": "flickrbot",
+  "version": "1.0.0",
+  "description": "Flicker Search bot for telegram",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raj Anand",
+  "license": "ISC",
+  "dependencies": {
+    "node-flickr": "^1.0.0",
+    "telegram-bot": "^0.1.0"
+  }
+}
