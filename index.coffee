@@ -4,11 +4,7 @@ keys = {"api_key": process.env.FLICKR_KEY}
 flickr = new Flickr(keys)
 
 tg = new Telegram(process.env.TELEGRAM_BOT_TOKEN)
-options = {
-        "useragent": "My duckduckgo app"
-        "no_redirects": "1"
-        "no_html": "0"
-}
+
 tg.on 'message', (msg) ->
   return unless msg.text
   console.log msg
